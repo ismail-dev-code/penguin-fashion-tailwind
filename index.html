@@ -365,7 +365,10 @@
       </section>
     </main>
     <footer class="bg-black p-5 mt-7">
-      <h4 class="text-center text-white text-xs">@2025, All Rights Reserved. <a href="https://ismail-dev-code.github.io/kids-education/">Ismail </a>Initiative.</h4>
+      <h4 class="text-center text-white text-xs"><small>Copyright @ <span id="year"></span> All Rights Reserved. <a href="https://ismail-dev-code.github.io/kids-education/">Ismail </a>Initiative.</small></h4>
     </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
